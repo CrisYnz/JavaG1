@@ -1,0 +1,15 @@
+package com.generation.f20220531;
+
+import java.util.List;
+
+public class Cliente {
+	private String rut;
+	private Integer id;
+	private List <Integer> numerosVenta;
+	private String nombre;
+	private String correo;
+	
+	public void modificarAtributo() {
+		rut="123456789-0";
+	}
+}

@@ -1,0 +1,7 @@
+package com.generation.f20220601.modelos;
+
+public class Gato {
+	private Boolean garrasRtractil;
+	private Boolean visionNocturna;
+	private String sonidoVocal;
+}

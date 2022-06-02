@@ -1,0 +1,10 @@
+package com.generation.f20220531.manager;
+
+public class ClienteManager {
+	// recorrer el arreglo e imprimir
+
+	public void recorrerArreglo() {
+		List <Cliente> listaCliente
+	}
+
+}

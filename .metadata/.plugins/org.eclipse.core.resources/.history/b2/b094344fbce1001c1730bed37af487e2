@@ -1,0 +1,15 @@
+package com.generation.f20220601.modelos;
+
+public class Gato extends Mascota{
+//la palabra extends significa que estamos usando herencia
+	private Boolean garrasRtractil;
+	private Boolean visionNocturna;
+	private String sonidoVocal;
+	@Override
+	public String toString() {
+		return "Gato [garrasRtractil=" + garrasRtractil + ", visionNocturna=" + visionNocturna + ", sonidoVocal="
+				+ sonidoVocal + "]";
+	}
+	
+	
+}

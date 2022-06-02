@@ -1,0 +1,10 @@
+package cl.generation.modelos;
+
+public class Usuario {
+	private String nombre;
+	private int edad;
+	private String genero;
+	private String correo;
+	private int id;
+	private String ocupacion;
+}

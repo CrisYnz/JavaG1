@@ -1,0 +1,28 @@
+package com.generation.f202205;
+
+public class Alumno {
+	//atributos
+	private String nombre;
+	private String apellido;
+	private int edad;
+	private String curso;
+	
+	
+	//constructores
+	public Alumno() {
+		super();
+	}
+	public Alumno(String nombre, String apellido, int edad, String curso) {
+		super();
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.edad = edad;
+		this.curso = curso;
+	}
+	
+	
+	
+	//get y set
+	
+	//funciones
+}

@@ -1,0 +1,17 @@
+package com.generation.f20220602.ejercicio;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class UsuarioTest {
+
+	@Test
+	public void testLogin() {
+		Usuario usuarioPrueba = new Usuario();
+		boolean consulta = usuarioPrueba("usuarioPrueba","test123");
+		assertEquals(true , consulta);
+	}
+
+
+}

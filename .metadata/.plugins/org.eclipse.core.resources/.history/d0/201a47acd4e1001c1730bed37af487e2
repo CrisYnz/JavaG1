@@ -1,0 +1,9 @@
+package com.generation.f20220601.ejercicio;
+
+public class AparatoElectronico extends AparatoElectrico{
+	private String diodo;
+	private String transistor;
+	private String chip;
+	private String procesador;
+	private int cantidadDeCircuitos;
+}

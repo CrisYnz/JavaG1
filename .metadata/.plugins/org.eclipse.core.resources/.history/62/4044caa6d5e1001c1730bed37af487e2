@@ -1,0 +1,7 @@
+package com.generation.f20220601.ejercicio;
+
+public class TelefonoInteligente {
+	String pantallaTactil;
+	String camara;
+	String modelo;
+}

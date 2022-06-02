@@ -1,0 +1,10 @@
+package com.generation.f20220601.ejercicio;
+
+public class Computador extends AparatoElectronico {
+	String capacidadMemoriaRam;
+	String capacidadMemoria;
+	Boolean SSD;
+	Boolean HDD;
+	String sistemaOperativo;
+	
+}

@@ -1,0 +1,17 @@
+package com.generation.f20220527;
+
+import java.util.HashMap;
+
+public class ColeccionesMap {
+
+	public static void main(String[] args) {
+		// colecciones Map/hashmap
+		// Pares clave <-> valor
+		// HashMap<K, V> map = new HashMap<K, V>();
+		// La K es key o clave
+		// La V es value o valor
+		//HashMap mapa = new HashMap();
+		
+	}
+
+}

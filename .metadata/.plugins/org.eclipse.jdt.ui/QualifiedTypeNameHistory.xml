@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.generation.f202205.Alumno"/>
+    <fullyQualifiedTypeName name="cl.generation.modelos.Usuario"/>
+    <fullyQualifiedTypeName name="cl.generation.modelos.ItemAgenda"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="com.generation.f20220531.Cliente"/>
+    <fullyQualifiedTypeName name="com.generation.f20220531.manager.ClienteManager"/>
+    <fullyQualifiedTypeName name="com.generation.f20220601.modelos.Mascota"/>
+    <fullyQualifiedTypeName name="com.generation.f20220601.modelos.Perro"/>
+    <fullyQualifiedTypeName name="com.generation.f20220601.modelos.Gato"/>
+    <fullyQualifiedTypeName name="com.generation.f20220601.modelos.Michi"/>
+    <fullyQualifiedTypeName name="com.generation.f20220601.ejercicio.AparatoElectrico"/>
+    <fullyQualifiedTypeName name="com.generation.f20220601.ejercicio.AparatoElectronico"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.generation.f20220601.pruebasUnitarias.CalculadoraTest"/>
+</qualifiedTypeNameHistroy>

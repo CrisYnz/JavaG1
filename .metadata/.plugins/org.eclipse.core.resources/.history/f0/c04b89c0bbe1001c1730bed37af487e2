@@ -1,0 +1,23 @@
+package com.generation.f20220601;
+
+import com.generation.f20220601.modelos.Gato;
+import com.generation.f20220601.modelos.Mascota;
+import com.generation.f20220601.modelos.Perro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Herencia
+		Mascota mascota = new Mascota();
+		mascota.setColor("gris");
+		mascota.setNombre("tom");
+		
+		Perro perro = new Perro();
+		perro.setColor("Red Fawn");
+		perro.setNombre("Ayun");
+		Gato gato = new Gato();
+		gato.setEspecie("Felino");
+		gato.setPelaje("pelo");
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.generation.f20220527;
+
+public class Alumno {
+	private String primerNombre;
+	private String segundoNombre;
+	private String apellidoPaterno;
+	private String apellidoMaterno;
+	private String curso;
+	private String rut;
+	private String dv;
+	private int edad;
+	public Alumno(String primerNombre, String segundoNombre, String apellidoPaterno, String apellidoMaterno,
+			String curso, String rut, String dv, int edad) {
+		super();
+		this.primerNombre = primerNombre;
+		this.segundoNombre = segundoNombre;
+		this.apellidoPaterno = apellidoPaterno;
+		this.apellidoMaterno = apellidoMaterno;
+		this.curso = curso;
+		this.rut = rut;
+		this.dv = dv;
+		this.edad = edad;
+	}
+	
+	
+}

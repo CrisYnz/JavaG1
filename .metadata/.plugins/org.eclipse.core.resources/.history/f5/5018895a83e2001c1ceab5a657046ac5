@@ -1,0 +1,6 @@
+package com.generation.f20220602.ejercicio;
+
+public class Cliente {
+	private int cantidadCompras;
+	private String interes;
+}

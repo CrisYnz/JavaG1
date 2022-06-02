@@ -1,0 +1,14 @@
+package com.generation.f20220601;
+
+import com.generation.f20220601.modelos.Mascota;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Herencia
+		Mascota mascota = new Mascota();
+		mascota.setColor("gris");
+
+	}
+
+}

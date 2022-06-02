@@ -1,0 +1,7 @@
+package com.generation.f20220601.modelos;
+
+public class Perro extends Mascota{
+	private Integer cantPaseos;
+	private Float tamanioHocico;
+	private String sonidoVocal;
+}

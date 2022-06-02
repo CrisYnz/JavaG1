@@ -1,0 +1,13 @@
+package com.generation.f202205;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Instancia de una clase
+		//Objeto en UPPERCASE y variable en LOWERCASE
+		Alumno alumno = new Alumno();
+		Alumno alumno2 = new Alumno();
+
+	}
+
+}

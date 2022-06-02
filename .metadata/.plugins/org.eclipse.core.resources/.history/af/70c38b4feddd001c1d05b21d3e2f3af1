@@ -1,0 +1,45 @@
+package com.generation.f20220527;
+
+public class Auto {
+	// Clase es un modelo o prototipo
+	// Objeto, nace
+	// Objeto es una abstraccion del mundo real plasmado en un programa
+	// Estructura de una clase
+	// atributos
+	// Constructores
+	// accesadores y mutadores (get y set)
+	// metodos o funciones
+
+	// atributos
+
+	private String color;
+	private String marca;
+	private String modelo;
+	private Double velocidad;
+
+	// constructores
+
+	// constructor vacio
+	public Auto() {
+
+	}
+
+	// constructor con parametros
+	/**
+	 * @param color
+	 * @param marca
+	 * @param modelo
+	 * @param velocidad
+	 */
+	public Auto(String color, String marca, String modelo, Double velocidad) {
+
+		this.color = color;
+		this.marca = marca;
+		this.modelo = modelo;
+		this.velocidad = velocidad;
+	}
+
+	// nos permite asignar valores a los atributos
+	// tambien nos permite crear instancias o llamadas al objeto
+
+}

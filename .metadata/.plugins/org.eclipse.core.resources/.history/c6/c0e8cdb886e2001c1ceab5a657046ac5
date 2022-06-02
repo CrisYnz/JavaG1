@@ -1,0 +1,32 @@
+package com.generation.f20220602.ejercicio;
+
+public class Vendedor extends Usuario{
+	int cantidadPublicaciones;
+	Boolean puedePublicar;
+	
+	
+	public Vendedor() {
+		super();
+	}
+	
+	public Vendedor(int cantidadPublicaciones, Boolean puedePublicar) {
+		super();
+		this.cantidadPublicaciones = cantidadPublicaciones;
+		this.puedePublicar = puedePublicar;
+	}
+	
+	public int getCantidadPublicaciones() {
+		return cantidadPublicaciones;
+	}
+	public void setCantidadPublicaciones(int cantidadPublicaciones) {
+		this.cantidadPublicaciones = cantidadPublicaciones;
+	}
+	public Boolean getPuedePublicar() {
+		return puedePublicar;
+	}
+	public void setPuedePublicar(Boolean puedePublicar) {
+		this.puedePublicar = puedePublicar;
+	}
+	
+	
+}

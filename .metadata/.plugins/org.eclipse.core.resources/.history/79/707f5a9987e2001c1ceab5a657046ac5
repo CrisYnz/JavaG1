@@ -1,0 +1,24 @@
+package com.generation.f20220602.ejercicio;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		Usuario usuarioPrueba = new Usuario();
+		Usuario vendedorPrueba = new Vendedor();
+		Usuario clientePrueba = new Cliente();
+		System.out.println("Ingrese su nombre de usuario:");
+		String nombreId = sc.nextLine();
+		
+		System.out.println("Ingrese su contraseña:");
+		String passwordId = sc.nextLine();
+		
+		usuarioPrueba.login(nombreId, passwordId);
+		
+	
+	}
+	
+}

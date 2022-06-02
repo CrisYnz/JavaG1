@@ -1,0 +1,14 @@
+package com.generation.f20220527;
+
+import java.util.HashMap;
+
+public class ColeccionesMap {
+
+	public static void main(String[] args) {
+		// colecciones Map/hashmap
+		//Pares clave <-> valor
+		
+		HashMap<K, V> map
+	}
+
+}

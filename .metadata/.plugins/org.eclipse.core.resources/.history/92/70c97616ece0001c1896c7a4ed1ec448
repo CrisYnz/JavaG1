@@ -1,0 +1,10 @@
+package com.generation.f20220531;
+
+import java.util.List;
+
+public class Cliente {
+	String rut;
+	Integer id;
+	List <Integer> numerosVenta;
+	String nombre;
+}

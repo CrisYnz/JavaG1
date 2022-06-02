@@ -1,0 +1,10 @@
+package com.generation.f20220601.modelos;
+
+public class Mascota {
+	private String color;
+	private String especie;
+	private String pelaje;
+	private String nombre;
+	private float peso;
+	private String sexo;
+}

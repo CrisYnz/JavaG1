@@ -1,0 +1,106 @@
+package com.generation.f20220527;
+
+public class Auto {
+	// Clase es un modelo o prototipo
+	// Objeto, nace
+	// Objeto es una abstraccion del mundo real plasmado en un programa
+	// Estructura de una clase
+	// atributos
+	// Constructores
+	// accesadores y mutadores (get y set)
+	// metodos o funciones
+
+	// atributos
+
+	private String color;
+	private String marca;
+	private String modelo;
+	private Double velocidad;
+
+	// constructores
+
+	// constructor vacio
+	public Auto() {
+
+	}
+
+	// constructor con parametros
+	/**
+	 * @param color
+	 * @param marca
+	 * @param modelo
+	 * @param velocidad
+	 */
+	public Auto(String color, String marca, String modelo, Double velocidad) {
+
+		this.color = color;
+		this.marca = marca;
+		this.modelo = modelo;
+		this.velocidad = velocidad;
+	}
+
+	/**
+	 * @return the color
+	 */
+	public String getColor() {
+		return color;
+	}
+
+	/**
+	 * @param color the color to set
+	 */
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	/**
+	 * @return the marca
+	 */
+	public String getMarca() {
+		return marca;
+	}
+
+	/**
+	 * @param marca the marca to set
+	 */
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+	/**
+	 * @return the modelo
+	 */
+	public String getModelo() {
+		return modelo;
+	}
+
+	/**
+	 * @param modelo the modelo to set
+	 */
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+
+	/**
+	 * @return the velocidad
+	 */
+	public Double getVelocidad() {
+		return velocidad;
+	}
+
+	/**
+	 * @param velocidad the velocidad to set
+	 */
+	public void setVelocidad(Double velocidad) {
+		this.velocidad = velocidad;
+	}
+
+	// nos permite asignar valores a los atributos
+	// tambien nos permite crear instancias o llamadas al objeto
+	// private solo la clase accede, public desde cualquier parte
+	
+	
+	//accesadores y mutadores
+	
+	
+}

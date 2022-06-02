@@ -1,0 +1,39 @@
+package com.generation.f20220531;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Instancia de cliente
+		Cliente cliente = new Cliente();
+		//cliente . id = 1234; no funciona en private, solo a nivel package. para acceder en private se necesitan getters and setters
+		Scanner sc = new Scanner(System.in);
+		cliente.setId(1234);
+		cliente.setNombre("Donato");
+		cliente.setRut("123456789-0");
+		
+		//excepciones
+		Cliente clienteDatosDinamicos = new Cliente();
+		
+		System.out.println("Ingrese el Id de Cliente");
+		Integer id = sc.nextInt();
+		clienteDatosDinamicos.setId(id);
+		
+		System.out.println("Ingrese el nombre de Cliente");
+		String nombre = sc.nextLine();
+		clienteDatosDinamicos.setNombre(nombre);
+		
+		System.out.println("Ingrese el correo de Cliente");
+		String correo = sc.nextLine();
+		clienteDatosDinamicos.setCorreo(correo);
+		
+		System.out.println("Ingrese el rut de Cliente");
+		String rut = sc.nextLine();
+		clienteDatosDinamicos.setRut(rut);
+
+
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package com.generation.f202205;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Instancia de una clase
+		//Objeto en UPPERCASE y variable en LOWERCASE
+		Alumno alumno = new Alumno(); //Inicializamos la variable sin valores ni atributos, haciendo uso del constructor vacio
+		Alumno alumno2 = new Alumno("Leonardo", "Utreras" , 26 , "G1");//Inicializamos la variable con valores por default, haciendo uso del constructor con parametros
+		
+		System.out.println(alumno.getNombre());
+		System.out.println(alumno2.getNombre());
+		
+		//setter
+		alumno.setNombre("Cris");
+		System.out.println("Nombre Alumno 1: " + alumno.getNombre());
+		System.out.println("Nombre Alumno 2: " + alumno.getNombre());
+		System.out.println("Nombre Alumno 3: " + alumno.getNombre());
+		System.out.println("Nombre Alumno 4: " + alumno.getNombre());
+		System.out.println("Nombre Alumno 5: " + alumno.getNombre());
+		
+		System.out.println("Apellido Alumno 1: " + alumno.getApellido());
+		System.out.println("Apellido Alumno 2: " + alumno.getApellido());
+		System.out.println("Apellido Alumno 3: " + alumno.getApellido());
+		System.out.println("Apellido Alumno 4: " + alumno.getApellido());
+		System.out.println("Apellido Alumno 5: " + alumno.getApellido());
+		
+		System.out.println("Edad Alumno 1: " + alumno.getEdad());
+		System.out.println("Edad Alumno 2: " + alumno.getEdad());
+		System.out.println("Edad Alumno 3: " + alumno.getEdad());
+		System.out.println("Edad Alumno 4: " + alumno.getEdad());
+		System.out.println("Edad Alumno 5: " + alumno.getEdad());
+		
+		System.out.println("Curso Alumno 1: " + alumno.getCurso());
+		//System.out.println(alumno); muestra la ubicación de la clase
+	}
+}

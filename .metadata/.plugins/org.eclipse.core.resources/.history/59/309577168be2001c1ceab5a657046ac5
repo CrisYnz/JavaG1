@@ -1,0 +1,14 @@
+package com.generation.f20220602.ejercicio;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class UsuarioTest {
+
+	@Test
+	public void testLogin() {
+		assertEquals(true ,"usuarioPrueba", "test123");
+	}
+
+}

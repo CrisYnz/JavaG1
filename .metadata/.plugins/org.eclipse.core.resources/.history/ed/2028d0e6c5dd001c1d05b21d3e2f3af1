@@ -1,0 +1,29 @@
+package com.generation.f20220527;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class ColeccionesMap {
+
+	public static void main(String[] args) {
+		// colecciones Map/hashmap
+		// Pares clave <-> valor
+		// HashMap<K, V> map = new HashMap<K, V>();
+		// La K es key o clave
+		// La V es value o valor
+		//HashMap mapa = new HashMap();
+		
+		HashMap objetoHashMap = new HashMap();
+		
+		objetoHashMap.put("Nombre", "Cristian");
+		objetoHashMap.put("Nombre2", "Andres");
+		objetoHashMap.put("ApellidoP", "Yanez");
+		objetoHashMap.put("ApellidoM", "Barraza");
+		
+		System.out.println(objetoHashMap);
+		Scanner sc = new Scanner(System.in);
+		
+		
+	}
+
+}
