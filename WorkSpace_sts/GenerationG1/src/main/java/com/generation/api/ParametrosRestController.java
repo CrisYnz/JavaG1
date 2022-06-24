@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")//Establecer nombre de ruta por defecto
+@RequestMapping("/api2")//Establecer nombre de ruta por defecto
 public class ParametrosRestController {
 	// localhost:9080/api/fecha?fecha=20220613
 	@RequestMapping("/fecha")

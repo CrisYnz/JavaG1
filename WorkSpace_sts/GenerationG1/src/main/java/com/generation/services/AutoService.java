@@ -23,5 +23,13 @@ public class AutoService {
 		// TODO Auto-generated method stub
 		return autoRepository.findAll();
 	}
+	public Auto buscarId(Long id) {
+
+		return autoRepository.findById(id).get();
+	}
+	public void eliminarPorId(Long id) {
+		
+		autoRepository.deleteById(id);
+	}
 
 }

@@ -1,5 +1,7 @@
 package com.generation.services;
 
+import java.util.List;
+
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +21,9 @@ public class UsuarioService {
 		
 		usuarioRepository.save(usuario);
 	}
+	public List<Usuario> findAll() {
+		// TODO Auto-generated method stub
+		return usuarioRepository.findAll();	}
 	
 
 	

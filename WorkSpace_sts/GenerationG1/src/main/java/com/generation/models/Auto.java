@@ -1,9 +1,14 @@
 package com.generation.models;
 
+import java.util.Date;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.PrePersist;
+import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
@@ -22,6 +27,10 @@ public class Auto {
 	private String color;
 	@Size(min=3, max=20)
 	private String velocidad;
+	//opcionales, sirven para la gestion de BBDD
+	@Column(updatable = false)//nunca se va a actualizar a traves del sistema
+	private Date createdAt;
+	private Date updatedAt;
 	
 	//constructor vacio
 	public Auto() {
@@ -67,6 +76,16 @@ public class Auto {
 	public void setVelocidad(String velocidad) {
 		this.velocidad = velocidad;
 	}
+	
+	@PrePersist
+    protected void onCreate(){
+        this.createdAt = new Date();
+    }
+    @PreUpdate
+    protected void onUpdate(){
+        this.updatedAt = new Date();
+    }
+
 	@Override
 	public String toString() {
 		return "Auto [id=" + id + ", nombre=" + nombre + ", marca=" + marca + ", color=" + color + ", velocidad="
